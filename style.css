@@ -1,0 +1,53 @@
+
+#pageTitle {
+ background: linear-gradient(
+    180deg,
+    #7c3aed, /* purple */
+    #a855f7, /* violet */
+    #c084fc, /* lavender */
+    #34d399, /* mint green */
+    #10b981  /* emerald green */
+  );
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+
+p {
+  color: black;
+  border: 1px solid black;
+  border-radius: 200px;
+  margin: 10px;
+  padding: 10px;
+  width:200px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    180deg,
+    #0d9488, /* Teal */
+    #999999  /* Aqua Teal */
+  ); 
+}
+
+body {  
+
+}
+
+#container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-content: flex-start ; 
+  border: 1px solid black;
+  height: 500px;
+  background: linear-gradient(
+    180deg,
+    #c084fc, /* lavender */
+    #34d399, /* mint green */
+    #10b981,  /* emerald green */
+    #ffffff 
+  );
+  
+}
